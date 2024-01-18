@@ -5,7 +5,7 @@ const miapp = express();
 miapp.use(express.json());
 
 miapp.get("/a", (req: Request, res: Response) => {
-  res.send("Hola")
+  res.send("Holaaaa")
 })
 
 miapp.listen(3000);
