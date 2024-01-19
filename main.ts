@@ -16,7 +16,7 @@ miapp
     res.send("Holaaaa")
   })
   .get("/b", (req: Request, res: Response) => {
-    res.send("Adioooss")
+    res.send("Adioooss, tranquilo que el deploy funciona")
   })
 
 miapp.listen(3000);
